@@ -56,10 +56,10 @@ class _ButtonAppState extends State<ButtonAppS> {
               print('Button long pressed');
             },
             style: TextButton.styleFrom(
-                primary: Colors.blueAccent,
-                shape: StadiumBorder(),
-                backgroundColor: Colors.purple,
-                minimumSize: Size(90, 25),
+              primary: Colors.blueAccent,
+              shape: StadiumBorder(),
+              backgroundColor: Colors.purple,
+              minimumSize: Size(90, 25),
             ),
             label: Text('Reset'),
           ),
