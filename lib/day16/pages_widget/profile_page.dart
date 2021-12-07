@@ -13,13 +13,13 @@ class _ProfilePageState extends State<ProfilePage> {
     return Center(
       child: Container(
         constraints: BoxConstraints.expand(),
-        color: Colors.green,
+        color: Colors.purple,
         child: Column(
-            children: [
+          children: [
             Text('Profile Page'),
-        Image.network('https://images.pexels.com/photos/10339349/pexels-photo-10339349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'),
-        ],
-      ),
-    ),);
+            Image.network('https://cdn.dribbble.com/users/4551506/screenshots/14857095/media/4a80e550a5669b342ab59907e047133f.png?compress=1&resize=1200x900'),
+          ],
+        ),
+      ),);
   }
 }
