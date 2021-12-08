@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_training/day18/login_page.dart';
-
-import 'day20/bottom_sheet.dart';
+import 'package:flutter_training/day18/login_app.dart';
 
 void main() {
-  runApp(const LoginPage());
+  runApp(const LoginApp());
   //runApp(MyWalletProfileUI());
   //runApp(RoutingApp());
   //runApp(DefaultLayoutApp());
