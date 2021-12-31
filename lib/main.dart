@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-
-import 'day22_23_24/to_do_app.dart';
+import 'package:flutter_training/day_31_weather_app/weather_app.dart';
 
 void main() {
-  runApp(const ToDoApp());
+  runApp(const WeatherApp());
   //runApp(MyWalletProfileUI());
   //runApp(RoutingApp());
   //runApp(DefaultLayoutApp());

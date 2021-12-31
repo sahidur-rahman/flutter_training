@@ -2,6 +2,8 @@
     package="com.shaidur.flutter.flutter_training">
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <!-- Required to fetch data from the internet. -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:label="flutter_training"
         android:icon="@mipmap/ic_launcher">
